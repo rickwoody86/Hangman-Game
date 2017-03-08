@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marvel Hangman</title>
+  <script type="text/javascript" src="jquery-1.8.3.js"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+
+<title>Marvel Hangman</title>
+<body onLoad="reset(); return true;">
+<h2><img src="MarvelLogo.gif"></h2>
+
+
+  
+
+  <h1>Take turns guessing letters to popular Marvel superhero names. You have 10 guesses until your game is over. Good Luck!!!</h1>
+
+  <p><img src="hmstart.gif" height="300" width="200" name="hm"></p>
+  <form name="game">
+    <p>Guess Word: <input type="text" name="displayWord"><br>
+      Letter Used: <input type="text" name="usedLetters"></p>
+    </form>
+
+
+    <p><a href="javascript:selectLetter('A');">A</a> | 
+      <a href="javascript:selectLetter('B');">B</a> | 
+      <a href="javascript:selectLetter('C');">C</a> | 
+      <a href="javascript:selectLetter('D');">D</a> | 
+      <a href="javascript:selectLetter('E');">E</a> | 
+      <a href="javascript:selectLetter('F');">F</a> | 
+      <a href="javascript:selectLetter('G');">G</a> | 
+      <a href="javascript:selectLetter('H');">H</a> | 
+      <a href="javascript:selectLetter('I');">I</a> | 
+      <a href="javascript:selectLetter('J');">J</a> | 
+      <a href="javascript:selectLetter('K');">K</a> | 
+      <a href="javascript:selectLetter('L');">L</a>
+      <a href="javascript:selectLetter('M');">M</a><br>
+      <a href="javascript:selectLetter('N');">N</a> | 
+      <a href="javascript:selectLetter('O');">O</a> | 
+      <a href="javascript:selectLetter('P');">P</a> | 
+      <a href="javascript:selectLetter('Q');">Q</a> | 
+      <a href="javascript:selectLetter('R');">R</a> | 
+      <a href="javascript:selectLetter('S');">S</a> | 
+      <a href="javascript:selectLetter('T');">T</a> | 
+      <a href="javascript:selectLetter('U');">U</a> | 
+      <a href="javascript:selectLetter('V');">V</a> | 
+      <a href="javascript:selectLetter('W');">W</a> | 
+      <a href="javascript:selectLetter('X');">X</a> | 
+      <a href="javascript:selectLetter('Y');">Y</a> | 
+      <a href="javascript:selectLetter('Z');">Z</a></p>
+
+      <p><a href="javascript:reset()">Start A New Game</a></p>
+
+      
+	<script src='assets/js/hm.js'></script>
+    </body>
+    </html>
